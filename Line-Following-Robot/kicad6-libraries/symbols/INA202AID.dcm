@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA202AID
+D 80V, Low- or High-side, High-Speed, Voltage Out Current Shunt Monitor with Comparator and Reference
+K
+F http://www.ti.com/lit/gpn/ina202
+$ENDCMP
+#
+#End Doc Library

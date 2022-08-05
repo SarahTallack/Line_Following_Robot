@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Admin\OneDrive - University of Cape Town\EEE3099F\eee3099f-engineering-design-project\Line-Following-Robot\Line-Following-Robot.kicad_sch</source>
+    <date>2022/08/04 9:59:40 pm</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Line-Following-Robot.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dfb85eb-cef9-42d7-ad11-38469e26252a</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e27369d-e67e-44de-ad42-9bb88fa2dcfe</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7713760-a9c7-422c-bdf4-3844bec453cd</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>RED LED</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cec5c91b-0f2e-497a-af3e-a5a152b16bf2</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BLUE LED</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>886fa588-653d-4a74-abca-89c5231551f6</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>GREEN LED</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09e702fe-159a-4c14-8124-4430501dd9ac</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>GREEN LED</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f5d1e82-112a-43c4-8579-2e45f5775c9b</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>RED LED</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>958b1d85-8028-493b-812a-642aa3f49938</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98ce9caf-5efc-4885-b55b-9201117aef6e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43064d00-084c-4e4c-8e6c-67264db5fdd4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daf1729a-0ab7-4408-87d5-446116272bbd</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6253c43c-abc1-42fd-bcb5-acd3a97e7da2</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>820</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c32335a9-2bc8-4f58-b628-6f360a28a42c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>762008aa-5574-4b5e-8d04-ab8d4b0b5299</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d81c3e7-f1f9-495c-a16f-d7987c13482d</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14b9ffaf-8df9-4b58-a6f6-76b48441e6a9</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>LDR</value>
+      <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
+      <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
+      <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68531c29-ae09-4caf-8ee9-e561a982ba02</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>LDR03</value>
+      <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
+      <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
+      <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8a7bef3-bb4a-4eb9-a8ca-c98a08fa7be2</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>LDR</value>
+      <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
+      <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
+      <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75082fb0-492a-4c05-9cf1-b39a9504b5be</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>LDR03</value>
+      <footprint>OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</footprint>
+      <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
+      <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46e3b797-7050-415e-99c4-aa5159dde14a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ed808e8-999f-4dc0-b58c-70cb4d1440da</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71b7d3ce-7eb5-4125-a808-a5d80d111b6d</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>R_Potentiometer</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbe01ed5-bbdd-4183-9b86-c5809166b30e</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>R_Potentiometer</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d5a1817-e6fe-4804-9d66-f16788f74a25</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Push Button</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c33648c0-9e58-46ad-81c5-7151794d7a02</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Push Button</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8df99da5-0c62-4912-8c63-5896aafe5631</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM317LZ</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="LFR_Library" part="LM317LZ" description=""/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60d26b83-9c3a-4edb-93ef-ab3d9d05e8cb</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM358DR2G</value>
+      <fields>
+        <field name="Required">YES</field>
+      </fields>
+      <libsource lib="PCB_Library_From_Template" part="LM358DR2G" description=""/>
+      <property name="Required" value="YES"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d9e652f-f434-4f26-b3a7-c8424bc52deb</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>CD4049UBE</value>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS04</datasheet>
+      <libsource lib="74xx" part="74LS04" description="Hex Inverter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20a52576-749e-438a-87ed-de267033f6a8</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>CD4081BE</value>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Line-Following-Robot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d26a0fc9-5b19-4dd5-84f8-8f657e2b2349</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74AHC1G08">
+      <description>Single AND Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AHC1G08</field>
+        <field name="Datasheet">http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS04">
+      <description>Hex Inverter</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS04</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SSOP?14*</fp>
+        <fp>TSSOP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS04</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LFR_Library" part="LM317LZ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317LZ</field>
+      </fields>
+      <pins>
+        <pin num="" name="Vadj" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCB_Library_From_Template" part="LM358DR2G">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358DR2G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OUT" type="output"/>
+        <pin num="2" name="1IN-" type="input"/>
+        <pin num="3" name="1IN+" type="input"/>
+        <pin num="4" name="GND" type="output"/>
+        <pin num="5" name="2in+" type="input"/>
+        <pin num="6" name="2IN-" type="input"/>
+        <pin num="7" name="2OUT" type="output"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Optical" part="LDR03">
+      <description>light dependent resistor</description>
+      <docs>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</docs>
+      <footprints>
+        <fp>R*LDR*10x8.5mm*P7.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">LDR03</field>
+        <field name="Footprint">OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical</field>
+        <field name="Datasheet">http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xGxx.kicad_sym</uri>
+    </library>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="LFR_Library">
+      <uri>C:\Users\Admin\OneDrive - University of Cape Town\EEE3099F\eee3099f-engineering-design-project\Line-Following-Robot/LFR_Library.kicad_sym</uri>
+    </library>
+    <library logical="PCB_Library_From_Template">
+      <uri>C:/Users/Admin/OneDrive/Documents/EEE3088F/Project/eee3088f-group-project/PCB/PCB_Library_From_Template.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Optical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Optical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/But1">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/But2">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/Vbat">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="Vin" pintype="input"/>
+    </net>
+    <net code="4" name="/Vreg">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="Vout" pintype="output"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="output"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="Vadj" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="1IN+" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="2in+" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="2OUT" pintype="output"/>
+      <node ref="U3" pin="1" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pintype="output"/>
+    </net>
+    <net code="16" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="1IN-" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(RV2-Pad2)">
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="2IN-" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="1OUT" pintype="output"/>
+      <node ref="U4" pin="1" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2" pintype="output"/>
+      <node ref="U4" pin="2" pintype="input"/>
+    </net>
+    <net code="20" name="VCC">
+      <node ref="U4" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="21" name="unconnected-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

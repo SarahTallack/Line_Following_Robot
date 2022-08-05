@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3750EMS#PBF
+D Linear Technology LT3750EMS#PBF, Battery Charge Controller, 10-Pin MSOP
+K
+F http://cds.linear.com/docs/en/datasheet/3750fa.pdf
+$ENDCMP
+#
+#End Doc Library
