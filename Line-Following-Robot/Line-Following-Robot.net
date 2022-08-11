@@ -1,0 +1,135 @@
+( { EESchema Netlist Version 1.1 created  2022/08/08 6:13:12 pm }
+ ( /14b9ffaf-8df9-4b58-a6f6-76b48441e6a9 $noname  R8 100
+  (    1 Net-(D3-Pad1) )
+  (    2 GND )
+ )
+ ( /daf1729a-0ab7-4408-87d5-446116272bbd $noname  R3 100
+  (    1 Net-(D2-Pad1) )
+  (    2 GND )
+ )
+ ( /98ce9caf-5efc-4885-b55b-9201117aef6e $noname  R1 330
+  (    1 /But1 )
+  (    2 GND )
+ )
+ ( /8df99da5-0c62-4912-8c63-5896aafe5631 $noname  SW2 Push_Button
+  (    1 /But2 )
+  (    2 /Vreg )
+ )
+ ( /43064d00-084c-4e4c-8e6c-67264db5fdd4 $noname  R2 100
+  (    1 Net-(D1-Pad1) )
+  (    2 GND )
+ )
+ ( /cec5c91b-0f2e-497a-af3e-a5a152b16bf2 $noname  D1 RED_LED
+  (    1 Net-(D1-Pad1) )
+  (    2 unconnected-(D1-Pad2) )
+ )
+ ( /c33648c0-9e58-46ad-81c5-7151794d7a02 $noname  SW1 Push_Button
+  (    1 /But1 )
+  (    2 /Vreg )
+ )
+ ( /09e702fe-159a-4c14-8124-4430501dd9ac $noname  D3 GREEN_LED
+  (    1 Net-(D3-Pad1) )
+  (    2 unconnected-(D3-Pad2) )
+ )
+ ( /886fa588-653d-4a74-abca-89c5231551f6 $noname  D2 BLUE_LED
+  (    1 Net-(D2-Pad1) )
+  (    2 unconnected-(D2-Pad2) )
+ )
+ ( /762008aa-5574-4b5e-8d04-ab8d4b0b5299 $noname  R6 330
+  (    1 /But2 )
+  (    2 GND )
+ )
+ ( /b7713760-a9c7-422c-bdf4-3844bec453cd $noname  C2 1uF
+  (    1 /Vreg )
+  (    2 GND )
+ )
+ ( /1d9e652f-f434-4f26-b3a7-c8424bc52deb $noname  U2 LM358DR2G
+  (    1 Net-(U2-Pad1) )
+  (    2 Net-(RV1-Pad2) )
+  (    3 Net-(R10-Pad1) )
+  (    4 GND )
+  (    5 Net-(R11-Pad2) )
+  (    6 Net-(RV2-Pad2) )
+  (    7 Net-(R13-Pad1) )
+  (    8 /Vreg )
+ )
+ ( /68531c29-ae09-4caf-8ee9-e561a982ba02 OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical  R9 LDR
+  (    1 /Vreg )
+  (    2 Net-(R10-Pad1) )
+ )
+ ( /bbe01ed5-bbdd-4183-9b86-c5809166b30e $noname  RV1 R_Potentiometer
+  (    1 /Vreg )
+  (    2 Net-(RV1-Pad2) )
+  (    3 GND )
+ )
+ ( /b8a7bef3-bb4a-4eb9-a8ca-c98a08fa7be2 OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical  R10 LDR03
+  (    1 Net-(R10-Pad1) )
+  (    2 GND )
+ )
+ ( /71b7d3ce-7eb5-4125-a808-a5d80d111b6d $noname  R14 100
+  (    1 Net-(R14-Pad1) )
+  (    2 Net-(D5-Pad2) )
+ )
+ ( /9ed808e8-999f-4dc0-b58c-70cb4d1440da $noname  R13 100
+  (    1 Net-(R13-Pad1) )
+  (    2 Net-(D4-Pad2) )
+ )
+ ( /46e3b797-7050-415e-99c4-aa5159dde14a OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical  R12 LDR03
+  (    1 Net-(R11-Pad2) )
+  (    2 GND )
+ )
+ ( /20a52576-749e-438a-87ed-de267033f6a8 $noname  U3 CD4049UBE
+  (    1 Net-(R13-Pad1) )
+  (    2 Net-(U3-Pad2) )
+ )
+ ( /d26a0fc9-5b19-4dd5-84f8-8f657e2b2349 $noname  U4 CD4081BE
+  (    1 Net-(U2-Pad1) )
+  (    2 Net-(U3-Pad2) )
+  (    3 GND )
+  (    4 Net-(R14-Pad1) )
+  (    5 VCC )
+ )
+ ( /5d5a1817-e6fe-4804-9d66-f16788f74a25 $noname  RV2 R_Potentiometer
+  (    1 /Vreg )
+  (    2 Net-(RV2-Pad2) )
+  (    3 GND )
+ )
+ ( /75082fb0-492a-4c05-9cf1-b39a9504b5be OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical  R11 LDR
+  (    1 /Vreg )
+  (    2 Net-(R11-Pad2) )
+ )
+ ( /958b1d85-8028-493b-812a-642aa3f49938 $noname  D5 RED_LED
+  (    1 GND )
+  (    2 Net-(D5-Pad2) )
+ )
+ ( /2f5d1e82-112a-43c4-8579-2e45f5775c9b $noname  D4 GREEN_LED
+  (    1 GND )
+  (    2 Net-(D4-Pad2) )
+ )
+ ( /1e27369d-e67e-44de-ad42-9bb88fa2dcfe $noname  C1 100nF
+  (    1 /Vbat )
+  (    2 GND )
+ )
+ ( /c32335a9-2bc8-4f58-b628-6f360a28a42c $noname  R5 820
+  (    1 Net-(R4-Pad2) )
+  (    2 GND )
+ )
+ ( /60d26b83-9c3a-4edb-93ef-ab3d9d05e8cb $noname  U1 LM317LZ
+  (      Net-(R4-Pad2) )
+  (      /Vbat )
+  (      /Vreg )
+ )
+ ( /6253c43c-abc1-42fd-bcb5-acd3a97e7da2 $noname  R4 1k
+  (    1 /Vreg )
+  (    2 Net-(R4-Pad2) )
+ )
+ ( /1dfb85eb-cef9-42d7-ad11-38469e26252a $noname  BT1 Battery
+  (    1 /Vbat )
+  (    2 GND )
+ )
+ ( /1d81c3e7-f1f9-495c-a16f-d7987c13482d $noname  R7 1k
+  (    1 /Vreg )
+  (    2 Net-(R4-Pad2) )
+ )
+)
+*

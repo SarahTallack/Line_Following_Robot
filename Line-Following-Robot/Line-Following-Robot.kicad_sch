@@ -1455,7 +1455,7 @@
     (property "Reference" "U3" (id 0) (at 181.61 48.2599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "CD4049UBE" (id 1) (at 181.61 50.7999 90)
+    (property "Value" "CD4011BE" (id 1) (at 181.61 50.7999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 176.53 49.53 0)
@@ -1632,9 +1632,9 @@
     (property "Required" "YES" (id 4) (at 73.66 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid dd2d59b3-ddef-491f-bb57-eb3d3820bdf1))
-    (pin "" (uuid dd2d59b3-ddef-491f-bb57-eb3d3820bdf1))
-    (pin "" (uuid dd2d59b3-ddef-491f-bb57-eb3d3820bdf1))
+    (pin "" (uuid dd2d59b3-ddef-491f-bb57-eb3d3820bdf3))
+    (pin "" (uuid dd2d59b3-ddef-491f-bb57-eb3d3820bdf3))
+    (pin "" (uuid dd2d59b3-ddef-491f-bb57-eb3d3820bdf3))
   )
 
   (symbol (lib_id "Device:R_US") (at 81.28 33.02 0) (unit 1)
@@ -1757,7 +1757,7 @@
     (property "Reference" "R6" (id 0) (at 88.265 97.1549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330" (id 1) (at 88.265 99.6949 0)
+    (property "Value" "10k" (id 1) (at 88.265 99.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 86.741 98.679 90)
@@ -1877,7 +1877,7 @@
     (property "Reference" "R1" (id 0) (at 64.135 97.1549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330" (id 1) (at 64.135 99.6949 0)
+    (property "Value" "10k" (id 1) (at 64.135 99.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 62.611 98.679 90)
@@ -2275,7 +2275,7 @@
       (reference "D5") (unit 1) (value "RED LED") (footprint "")
     )
     (path "/98ce9caf-5efc-4885-b55b-9201117aef6e"
-      (reference "R1") (unit 1) (value "330") (footprint "")
+      (reference "R1") (unit 1) (value "10k") (footprint "")
     )
     (path "/43064d00-084c-4e4c-8e6c-67264db5fdd4"
       (reference "R2") (unit 1) (value "100") (footprint "")
@@ -2290,7 +2290,7 @@
       (reference "R5") (unit 1) (value "820") (footprint "")
     )
     (path "/762008aa-5574-4b5e-8d04-ab8d4b0b5299"
-      (reference "R6") (unit 1) (value "330") (footprint "")
+      (reference "R6") (unit 1) (value "10k") (footprint "")
     )
     (path "/1d81c3e7-f1f9-495c-a16f-d7987c13482d"
       (reference "R7") (unit 1) (value "1k") (footprint "")
@@ -2335,7 +2335,7 @@
       (reference "U2") (unit 1) (value "LM358DR2G") (footprint "")
     )
     (path "/20a52576-749e-438a-87ed-de267033f6a8"
-      (reference "U3") (unit 1) (value "CD4049UBE") (footprint "")
+      (reference "U3") (unit 1) (value "CD4011BE") (footprint "")
     )
     (path "/d26a0fc9-5b19-4dd5-84f8-8f657e2b2349"
       (reference "U4") (unit 1) (value "CD4081BE") (footprint "")

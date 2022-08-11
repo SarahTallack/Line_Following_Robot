@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Admin\OneDrive - University of Cape Town\EEE3099F\eee3099f-engineering-design-project\Line-Following-Robot\Line-Following-Robot.kicad_sch</source>
-    <date>2022/08/04 9:59:40 pm</date>
+    <date>2022/08/11 4:30:26 pm</date>
     <tool>Eeschema (6.0.2)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -117,7 +117,7 @@
       <tstamps>958b1d85-8028-493b-812a-642aa3f49938</tstamps>
     </comp>
     <comp ref="R1">
-      <value>330</value>
+      <value>10k</value>
       <fields>
         <field name="Required">YES</field>
       </fields>
@@ -177,7 +177,7 @@
       <tstamps>c32335a9-2bc8-4f58-b628-6f360a28a42c</tstamps>
     </comp>
     <comp ref="R6">
-      <value>330</value>
+      <value>10k</value>
       <fields>
         <field name="Required">YES</field>
       </fields>
@@ -349,7 +349,7 @@
       <tstamps>1d9e652f-f434-4f26-b3a7-c8424bc52deb</tstamps>
     </comp>
     <comp ref="U3">
-      <value>CD4049UBE</value>
+      <value>CD4011BE</value>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS04</datasheet>
       <libsource lib="74xx" part="74LS04" description="Hex Inverter"/>
       <property name="Sheetname" value=""/>
