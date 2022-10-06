@@ -6,6 +6,3 @@ load wheelLUT;          % Look up table for platform motors
 Ts = 0.01;              % Sample time
 load wheelMotorModel    % Motor model for platform motorswheelMotorModel
 %load straigh_line.mat
-
-LeftTicks = 0;
-RightTicks = 0;
