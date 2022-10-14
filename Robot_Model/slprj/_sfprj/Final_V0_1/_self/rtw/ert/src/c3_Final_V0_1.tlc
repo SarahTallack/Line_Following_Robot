@@ -1,0 +1,74 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   8 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c3_Final_V0_1"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c3_Final_V0_1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_TurnAround"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "TurnAround"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_TurnRight"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "TurnRight"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Forward"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Forward"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Forward1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Forward1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "done"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "done"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

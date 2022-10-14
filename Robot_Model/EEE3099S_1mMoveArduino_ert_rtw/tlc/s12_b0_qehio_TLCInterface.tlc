@@ -1,0 +1,92 @@
+%implements s12_b0_qehio_TLCInterface "C"
+
+%function getInputAddr_12_12_0_1_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&jjrggstymb.DistanceReference_Value"
+%endfunction
+
+%function getInput_12_12_0_1_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "jjrggstymb.DistanceReference_Value"
+%endfunction
+
+%function getInputAddr_12_5_0_3_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&h4i1iu3ffn"
+%endfunction
+
+%function getInput_12_5_0_3_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "h4i1iu3ffn"
+%endfunction
+
+%function getInputAddr_12_5_0_3_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&denigle1cf"
+%endfunction
+
+%function getInput_12_5_0_3_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "denigle1cf"
+%endfunction
+
+%function getInputAddr_12_12_0_3_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&jjrggstymb.DistanceReference_Value"
+%endfunction
+
+%function getInput_12_12_0_3_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "jjrggstymb.DistanceReference_Value"
+%endfunction
+
+%function getInputAddr_12_12_0_3_1_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&app2ntsfimz.e5wzga5i2i_cxarnvbvui"
+%endfunction
+
+%function getInput_12_12_0_3_1_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "app2ntsfimz.e5wzga5i2i_cxarnvbvui"
+%endfunction
+
+%function getInputAddr_12_13_0_3_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&app2ntsfimz.e5wzga5i2i_cxarnvbvui"
+%endfunction
+
+%function getInput_12_13_0_3_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "app2ntsfimz.e5wzga5i2i_cxarnvbvui"
+%endfunction
+
+%function getInputAddr_12_14_0_3_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&app2ntsfimz.i55qtedssl_cl54gopm0x"
+%endfunction
+
+%function getInput_12_14_0_3_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "app2ntsfimz.i55qtedssl_cl54gopm0x"
+%endfunction
+
+%function getInputAddr_12_14_0_3_3_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&daashkoawq"
+%endfunction
+
+%function getInput_12_14_0_3_3_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "daashkoawq"
+%endfunction
+
+%function getInputAddr_12_14_0_3_3_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&app2ntsfimz.e1guud14jm_mbvzarwird"
+%endfunction
+
+%function getInput_12_14_0_3_3_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "app2ntsfimz.e1guud14jm_mbvzarwird"
+%endfunction
+

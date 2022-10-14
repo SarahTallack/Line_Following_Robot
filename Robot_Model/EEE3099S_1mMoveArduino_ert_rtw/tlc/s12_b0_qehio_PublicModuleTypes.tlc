@@ -1,0 +1,75 @@
+%implements s12_b0_qehio_PublicModuleTypes "C"
+
+%function PublicModuleTypes(block) Output
+
+#ifndef struct_tag_9aqKbsbsI7JI0RwgnVwU0C
+#define struct_tag_9aqKbsbsI7JI0RwgnVwU0C
+struct tag_9aqKbsbsI7JI0RwgnVwU0C
+{
+    int32_T __dummy;
+};
+#endif /* struct_tag_9aqKbsbsI7JI0RwgnVwU0C */
+#ifndef typedef_jllbv13qx1
+#define typedef_jllbv13qx1
+typedef struct tag_9aqKbsbsI7JI0RwgnVwU0C jllbv13qx1;
+#endif /* typedef_jllbv13qx1 */
+#ifndef struct_tag_qrLkTWTW64zZK0sqwALTyG
+#define struct_tag_qrLkTWTW64zZK0sqwALTyG
+struct tag_qrLkTWTW64zZK0sqwALTyG
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    jllbv13qx1 DigitalIODriverObj;
+};
+#endif /* struct_tag_qrLkTWTW64zZK0sqwALTyG */
+#ifndef typedef_hpz3btvwns
+#define typedef_hpz3btvwns
+typedef struct tag_qrLkTWTW64zZK0sqwALTyG hpz3btvwns;
+#endif /* typedef_hpz3btvwns */
+#ifndef struct_tag_hiATgaifu8RfrjZ2yifYbH
+#define struct_tag_hiATgaifu8RfrjZ2yifYbH
+struct tag_hiATgaifu8RfrjZ2yifYbH
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    boolean_T TunablePropsChanged;
+    real_T SampleTime;
+    uint8_T Index;
+};
+#endif /* struct_tag_hiATgaifu8RfrjZ2yifYbH */
+#ifndef typedef_lrn3afwrky
+#define typedef_lrn3afwrky
+typedef struct tag_hiATgaifu8RfrjZ2yifYbH lrn3afwrky;
+#endif /* typedef_lrn3afwrky */
+
+/* Custom Type definition for MATLABSystem: '<Root>/PWM1' */
+#include "MW_SVD.h"
+
+#ifndef struct_tag_g1WX34VPn8QzVKQriB4HN
+#define struct_tag_g1WX34VPn8QzVKQriB4HN
+struct tag_g1WX34VPn8QzVKQriB4HN
+{
+    MW_Handle_Type MW_PWM_HANDLE;
+};
+#endif /* struct_tag_g1WX34VPn8QzVKQriB4HN */
+#ifndef typedef_a03vq1e2r2
+#define typedef_a03vq1e2r2
+typedef struct tag_g1WX34VPn8QzVKQriB4HN a03vq1e2r2;
+#endif /* typedef_a03vq1e2r2 */
+#ifndef struct_tag_4eDVzK5FiryyCjvjjvrZGB
+#define struct_tag_4eDVzK5FiryyCjvjjvrZGB
+struct tag_4eDVzK5FiryyCjvjjvrZGB
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    a03vq1e2r2 PWMDriverObj;
+};
+#endif /* struct_tag_4eDVzK5FiryyCjvjjvrZGB */
+#ifndef typedef_bkqm4240qa
+#define typedef_bkqm4240qa
+typedef struct tag_4eDVzK5FiryyCjvjjvrZGB bkqm4240qa;
+#endif /* typedef_bkqm4240qa */
+%endfunction

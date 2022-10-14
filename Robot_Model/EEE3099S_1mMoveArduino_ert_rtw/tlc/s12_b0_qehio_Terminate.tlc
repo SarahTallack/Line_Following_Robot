@@ -1,0 +1,80 @@
+%implements s12_b0_qehio_Terminate "C"
+
+%function Terminate(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+bkqm4240qa *obj;
+%closefile localVarDecl
+/* {S!d1294}Terminate for MATLABSystem: '<Root>/Encoder' */
+if (!caflccazc5a.ardz1zeqwu.matlabCodegenIsDeleted) {
+    caflccazc5a.ardz1zeqwu.matlabCodegenIsDeleted = true;
+    if ((caflccazc5a.ardz1zeqwu.isInitialized == 1) && caflccazc5a.ardz1zeqwu.isSetupComplete) {
+        MW_EncoderRelease();
+    }
+}
+/* {E!d1294}End of Terminate for MATLABSystem: '<Root>/Encoder' */
+
+/* {S!d1296}Terminate for MATLABSystem: '<Root>/PWM' */
+obj = &caflccazc5a.fbpyavx31n;
+if (!caflccazc5a.fbpyavx31n.matlabCodegenIsDeleted) {
+    caflccazc5a.fbpyavx31n.matlabCodegenIsDeleted = true;
+    if ((caflccazc5a.fbpyavx31n.isInitialized == 1) && caflccazc5a.fbpyavx31n.isSetupComplete) {
+        obj->PWMDriverObj.MW_PWM_HANDLE = MW_PWM_GetHandle(3U);
+        MW_PWM_SetDutyCycle(caflccazc5a.fbpyavx31n.PWMDriverObj.MW_PWM_HANDLE, 0.0);
+        obj->PWMDriverObj.MW_PWM_HANDLE = MW_PWM_GetHandle(3U);
+        MW_PWM_Close(caflccazc5a.fbpyavx31n.PWMDriverObj.MW_PWM_HANDLE);
+    }
+}
+/* {E!d1296}End of Terminate for MATLABSystem: '<Root>/PWM' */
+
+/* {S!d1298}Terminate for MATLABSystem: '<Root>/PWM1' */
+obj = &caflccazc5a.emgvfnf0ds;
+if (!caflccazc5a.emgvfnf0ds.matlabCodegenIsDeleted) {
+    caflccazc5a.emgvfnf0ds.matlabCodegenIsDeleted = true;
+    if ((caflccazc5a.emgvfnf0ds.isInitialized == 1) && caflccazc5a.emgvfnf0ds.isSetupComplete) {
+        obj->PWMDriverObj.MW_PWM_HANDLE = MW_PWM_GetHandle(2U);
+        MW_PWM_SetDutyCycle(caflccazc5a.emgvfnf0ds.PWMDriverObj.MW_PWM_HANDLE, 0.0);
+        obj->PWMDriverObj.MW_PWM_HANDLE = MW_PWM_GetHandle(2U);
+        MW_PWM_Close(caflccazc5a.emgvfnf0ds.PWMDriverObj.MW_PWM_HANDLE);
+    }
+}
+/* {E!d1298}End of Terminate for MATLABSystem: '<Root>/PWM1' */
+
+/* {S!d1300}Terminate for MATLABSystem: '<Root>/Digital Output' */
+if (!caflccazc5a.ivazrt1bxu.matlabCodegenIsDeleted) {
+    caflccazc5a.ivazrt1bxu.matlabCodegenIsDeleted = true;
+}
+/* {E!d1300}End of Terminate for MATLABSystem: '<Root>/Digital Output' */
+
+/* {S!d1302}Terminate for MATLABSystem: '<Root>/Digital Output1' */
+if (!caflccazc5a.aucxw3hyh5.matlabCodegenIsDeleted) {
+    caflccazc5a.aucxw3hyh5.matlabCodegenIsDeleted = true;
+}
+/* {E!d1302}End of Terminate for MATLABSystem: '<Root>/Digital Output1' */
+
+/* {S!d1304}Terminate for MATLABSystem: '<Root>/Digital Output2' */
+if (!caflccazc5a.nq1fulm51j.matlabCodegenIsDeleted) {
+    caflccazc5a.nq1fulm51j.matlabCodegenIsDeleted = true;
+}
+/* {E!d1304}End of Terminate for MATLABSystem: '<Root>/Digital Output2' */
+
+/* {S!d1306}Terminate for MATLABSystem: '<Root>/Digital Output3' */
+if (!caflccazc5a.ae1vobnxn4.matlabCodegenIsDeleted) {
+    caflccazc5a.ae1vobnxn4.matlabCodegenIsDeleted = true;
+}
+/* {E!d1306}End of Terminate for MATLABSystem: '<Root>/Digital Output3' */
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedTerminateLocalVars", localVarDecl)>
+%endfunction
+%function TerminateFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Terminate(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 4, fcnProtoType)>
+%endfunction

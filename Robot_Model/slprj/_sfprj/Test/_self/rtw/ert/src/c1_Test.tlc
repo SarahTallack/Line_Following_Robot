@@ -1,0 +1,95 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   11 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c1_Test"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c1_Test"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_TurnAround"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "TurnAround"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_TurnRight1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "TurnRight1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_TurnLeft"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "TurnLeft"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Forward"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Forward"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Forward1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Forward1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_TurnRight2"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "TurnRight2"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "done"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "done"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "check"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "check"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
